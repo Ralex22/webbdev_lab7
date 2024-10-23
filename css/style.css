@@ -2,14 +2,14 @@ body {
   background-image: url('../images/grey.png');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; /* Fixed: should be "no-repeat" */
+  background-repeat: no-repeat; /* Fixed typo */
   background-attachment: fixed;
   margin: 7px;
   font-family: Arial, sans-serif;
 }
 
 img {
-  display: block; /* Flex is typically used for containers, not individual images */
+  display: flex;
   max-width: 100%;
   height: auto;
   z-index: auto;
