@@ -2,25 +2,23 @@ body {
   background-image: url('../images/grey.png');
   background-size: cover;
   background-position: center;
-  background-repeat: no repeat;
+  background-repeat: no-repeat; /* Fixed: should be "no-repeat" */
   background-attachment: fixed;
   margin: 7px;
   font-family: Arial, sans-serif;
 }
 
 img {
-  display: flex;
+  display: block; /* Flex is typically used for containers, not individual images */
   max-width: 100%;
   height: auto;
   z-index: auto;
 }
 
-
 td {
   font-size: 1em;
   line-height: 1.6;
 }
-
 
 div {
   text-align: center;
@@ -48,4 +46,3 @@ td, th {
   color: #00ffce;
   font-family: "Arial", cursive;
 }
-  
