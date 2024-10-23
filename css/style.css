@@ -2,10 +2,11 @@ body {
   background-image: url('../images/grey.png');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; /* Fixed typo */
+  background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 7px;
   font-family: Arial, sans-serif;
+  color: black; /* Sets the default text color to black */
 }
 
 img {
@@ -18,10 +19,12 @@ img {
 td {
   font-size: 1em;
   line-height: 1.6;
+  color: black; /* Ensures table text is black */
 }
 
 div {
   text-align: center;
+  color: black; /* Ensures div text is black */
 }
 
 li {
@@ -42,7 +45,7 @@ header a .image1 img {
 }
 
 td, th {
-  border: 1px solid;
-  color: #00ffce;
+  border: 1px solid black; /* Changes the border outline to black */
+  color: black; /* Ensures table header and cell text is black */
   font-family: "Arial", cursive;
 }
