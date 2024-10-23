@@ -1,8 +1,8 @@
 body {
-  background-color: #f8f8f8; /* Light grey */
+  background-image: url('../images/grey.png');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no repeat;
   background-attachment: fixed;
   margin: 7px;
   font-family: Arial, sans-serif;
@@ -15,10 +15,12 @@ img {
   z-index: auto;
 }
 
+
 td {
   font-size: 1em;
   line-height: 1.6;
 }
+
 
 div {
   text-align: center;
@@ -46,3 +48,4 @@ td, th {
   color: #00ffce;
   font-family: "Arial", cursive;
 }
+  
